@@ -1,14 +1,11 @@
 import streamlit as st
 from sqlalchemy import text
 
-import datetime
-
 
         
         
 class Database():
     def __init__(self):
-          
         self.conn=st.connection('tidb', type='sql')
         
         self.columns_dementia = '''
