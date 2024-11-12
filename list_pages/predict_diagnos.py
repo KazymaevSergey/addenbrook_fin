@@ -83,8 +83,8 @@ def result():
             try:
                 data_db.insert_data_dementia(massiv.values()) 
             except:
-                st.write('no data')
-                #data_db.insert_data_dementia(massiv.values()) 
+                #st.write('no data')
+                data_db.insert_data_dementia(massiv.values()) 
 
 
 
