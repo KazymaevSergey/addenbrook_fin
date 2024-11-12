@@ -8,7 +8,7 @@ from sqlalchemy import create_engine
 class Database():
     def __init__(self):
           
-        self.conn=create_engine(st.secrets.databaseTDIB.url)               #st.connection('tidb', type='sql')
+        self.conn=create_engine(st.secrets.databaseTDIB.url, pool_pre_ping=True)               #st.connection('tidb', type='sql')
         
         self.columns_dementia = '''
 age
