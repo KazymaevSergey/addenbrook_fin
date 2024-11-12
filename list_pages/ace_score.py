@@ -266,7 +266,7 @@ def result():
                 data_db.insert_data(massiv)
                
             except:
-                st.write('no data')
+                st.write('хорошего вам дня')
                 #data_db.insert_data(massiv)
                
                 
