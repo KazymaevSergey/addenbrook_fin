@@ -22,7 +22,7 @@ text, foto = st.columns(2, vertical_alignment='center')
 
 with st.container():
     with text:
-        st.title('Общая оценка когнитивных функций по Адденбрукской когнитивной шкале')
+        st.title('Общая оценка когнитивных функций по Адденбрукской_q когнитивной шкале')
     with foto:
         st.image('list_pages/image/neuro_assment.jpeg', width=290)
         
