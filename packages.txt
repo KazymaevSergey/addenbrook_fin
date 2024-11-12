@@ -1,2 +1,4 @@
+
 pkg-config
 default-libmysqlclient-dev
+libpq-dev
