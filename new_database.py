@@ -43,6 +43,7 @@ VALUES(
 :age, :m_ACE, :ACE, :attention, :memory, :fluency, :speech, :spatials, 
 :diagnosis, :predicted_diagnosis, :predicted_stepen, :assessment_prediction) ''' ), dict_data)
                 s.commit()
+                s.close()
     
     
     def insert_data(self, data):
@@ -61,6 +62,7 @@ VALUES(
             :stepen, :damage, :diagnos, :assment_stepen, :assment_damage)'''
                 ),  dict_data)
                 s.commit()
+                s.close()
 
     
 
