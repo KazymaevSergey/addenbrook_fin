@@ -69,11 +69,7 @@ VALUES(
 
 
 
-#Database().insert_data([43,23,18,12,14,16,26,18,
-#                        'no', 'no', 'no', 'no', 'no'])
 
-
-   
 
         
 
