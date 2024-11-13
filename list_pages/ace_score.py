@@ -184,9 +184,9 @@ def result():
         st.subheader('Описание результатов')
         st.warning('заключение создано при помощи нейросети, возможны неточности', icon='⚠️')
         
-        #text_conc=text_conclusion(y_pred_cat, y_pred_dam,  ACE_anomal, ACE)
-        #container = st.container(border=True)
-        #container.write(text_conc)
+        text_conc=text_conclusion(y_pred_cat, y_pred_dam,  ACE_anomal, ACE)
+        container = st.container(border=True)
+        container.write(text_conc)
         
         
         st.subheader('Сводная таблица', divider='blue')

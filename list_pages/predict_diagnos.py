@@ -26,12 +26,12 @@ def result():
         st.subheader('Описание результатов')
         st.warning('заключение создано при помощи нейросети, возможны неточности', icon='⚠️')
         
-        #df_interp=pd.read_csv('interpitate_diagn.csv').drop(columns='Unnamed: 0')              
-        #interpritation=df_interp.iloc[y_predict_diagnos, y_predict_stepen]
+        df_interp=pd.read_csv('interpitate_diagn.csv').drop(columns='Unnamed: 0')              
+        interpritation=df_interp.iloc[y_predict_diagnos, y_predict_stepen]
         
-        #text_conc=text_conclusion_diagn( interpritation, ACE_anomal, ACE)
-        #container = st.container(border=True)
-        #container.write(text_conc)
+        text_conc=text_conclusion_diagn( interpritation, ACE_anomal, ACE)
+        container = st.container(border=True)
+        container.write(text_conc)
         
         
         st.subheader('Сводная таблица', divider='blue')
