@@ -83,8 +83,9 @@ def result():
             try:
                 data_db.insert_data_dementia(massiv.values()) 
             except:
-                st.write('хорошего вам дня')
-                #data_db.insert_data_dementia(massiv.values()) 
+                
+                data_db.insert_data_dementia(massiv.values())
+                st.write('хорошего вам дня') 
 
 
 

@@ -266,8 +266,10 @@ def result():
                 data_db.insert_data(massiv)
                
             except:
+                
+                data_db.insert_data(massiv)
                 st.write('хорошего вам дня')
-                #data_db.insert_data(massiv)
+            
                
                 
       
